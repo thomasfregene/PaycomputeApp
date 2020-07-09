@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectUniqueName": "C:\\Projects\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "projectName": "Paycompute.Entity",
-      "projectPath": "C:\\Projects\\Paycompute.Entity\\Paycompute.Entity.csproj",
+      "projectPath": "C:\\Projects\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
       "packagesPath": "C:\\Users\\fregene thomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Paycompute.Entity\\obj\\",
+      "outputPath": "C:\\Projects\\PaycomputeApp\\Paycompute.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fregene thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",

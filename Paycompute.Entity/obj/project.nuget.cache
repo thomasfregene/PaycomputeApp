@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LmR8cjMhW+c7ev12nrJohaH18z9Mx8tAgicX+ndCblrIchmvaL9wks2vR+3d3Jr5bOfzRXPJUr2/XXKp2+4q2A==",
+  "dgSpecHash": "n97k39YxGDaS3dRPQxcsweZbhcKH1l29IUq7ka5Zd1RrKVT3rPDUHjxmpzQn3vI7F5H6B0q2cjU5KTQkul0dBg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Paycompute.Entity\\Paycompute.Entity.csproj",
+  "projectFilePath": "C:\\Projects\\PaycomputeApp\\Paycompute.Entity\\Paycompute.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
