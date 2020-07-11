@@ -32,6 +32,7 @@ namespace Paycompute.Entity
 
         public DateTime DateJoined { get; set; }
 
+        public string Phone { get; set; }
         public string Designation { get; set; }
 
         public string Email { get; set; }
@@ -48,6 +49,7 @@ namespace Paycompute.Entity
         [Required, MaxLength(150)]
         public string Address { get; set; }
 
+        [Required, MaxLength(50)]
         public string City { get; set; }
 
         [Required, MaxLength(50)]
