@@ -72,6 +72,8 @@ namespace Paycompute.Services.Implementation
        => tax + nic + studentLoanRepayment + unionFee;
 
         public decimal NetPay(decimal totalEarnings, decimal totalDeduction) => totalEarnings - totalDeduction;
-       
+
+        public TaxYear GetTaxYearById(int id)
+        => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
     }
 }

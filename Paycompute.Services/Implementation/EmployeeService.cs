@@ -55,7 +55,10 @@ namespace Paycompute.Services.Implementation
 
         public decimal UnionFee(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            //teanary operation
+            var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0;
+            return fee;
         }
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
@@ -84,6 +87,13 @@ namespace Paycompute.Services.Implementation
             return studentLoanAmount;
         }
 
-        
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            });
+        }
     }
 }
