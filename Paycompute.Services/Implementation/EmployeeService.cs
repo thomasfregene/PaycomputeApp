@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Paycompute.Entity;
 using Paycompute.Persistence;
 
@@ -29,7 +30,7 @@ namespace Paycompute.Services.Implementation
         public Employee GetById(int employeeId) => 
             _context.Employees.Where(e => e.Id == employeeId).FirstOrDefault();
 
-        public IEnumerable<Employee> GetAll() => _context.Employees;
+        public IEnumerable<Employee> GetAll() => _context.Employees.AsNoTracking().OrderBy(emp=> emp.FullName);
        
 
 
