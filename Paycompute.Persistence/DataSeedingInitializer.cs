@@ -28,7 +28,7 @@ namespace Paycompute.Persistence
                         UserName = "fregzythomas@gmail.com",
                         Email = "fregzythomas@gmail.com"
                     };
-                    IdentityResult identityResult = userManager.CreateAsync(user, "password1").Result;
+                    IdentityResult identityResult = userManager.CreateAsync(user, "Password1").Result;
                     if (identityResult.Succeeded)
                     {
                         userManager.AddToRoleAsync(user, "Admin").Wait();
@@ -44,7 +44,7 @@ namespace Paycompute.Persistence
                         UserName = "manager@gmail.com",
                         Email = "manager@gmail.com"
                     };
-                    IdentityResult identityResult = userManager.CreateAsync(user, "password1").Result;
+                    IdentityResult identityResult = userManager.CreateAsync(user, "Password1").Result;
                     if (identityResult.Succeeded)
                     {
                         userManager.AddToRoleAsync(user, "Manager").Wait();
@@ -59,7 +59,7 @@ namespace Paycompute.Persistence
                         UserName = "jane.doe@gmail.com",
                         Email = "jane.doe@gmail.com"
                     };
-                    IdentityResult identityResult = userManager.CreateAsync(user, "password1").Result;
+                    IdentityResult identityResult = userManager.CreateAsync(user, "Password1").Result;
                     if (identityResult.Succeeded)
                     {
                         userManager.AddToRoleAsync(user, "Staff").Wait();
@@ -74,7 +74,7 @@ namespace Paycompute.Persistence
                         UserName = "john.doe@gmail.com",
                         Email = "john.doe@gmail.com"
                     };
-                    IdentityResult identityResult = userManager.CreateAsync(user, "password1").Result;
+                    IdentityResult identityResult = userManager.CreateAsync(user, "Password1").Result;
                     //No Role assigned to Mr John Doe
                 }
             }
