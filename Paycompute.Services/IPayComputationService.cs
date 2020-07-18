@@ -1,4 +1,5 @@
-﻿using Paycompute.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Paycompute.Entity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,10 +26,5 @@ namespace Paycompute.Services
 
     }
 
-    public class SelectListItem
-    {
-        public string Text { get; set; }
-        public string Value { get; set; }
-
-    }
+    
 }
